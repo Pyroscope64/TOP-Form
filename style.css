@@ -77,5 +77,24 @@ input {
     height:2vh;
 }
 .signup {
-    
+    margin-top: 2em;
+    margin-left: 2.5vw;
+    background-color: #f9fafb;
+}
+.signup > button {
+    width:10vw;
+    height:5vh;
+    font-size: x-large;
+    border-radius: 8px;
+    color:white;
+    background-color: palevioletred;
+    border-color: palevioletred;
+    transition:.5s;
+}
+.signup > button:hover {
+    width:15vw;
+    height:7.5vh;
+    background-color: violet;
+    border-color: violet;
+    font-size: xx-large;
 }
