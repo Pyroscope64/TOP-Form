@@ -28,38 +28,41 @@
         You <em>know</em> you want to.
       </p>
     </div>
-    <form class="form">
-        <div class="header">
-            <h1>Let's do this!</h1>
+    <form>
+        <div class="form">
+            <div class="header">
+                <h1>Let's do this!</h1>
+            </div>
+            <div class="input">
+                <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" required>
+            </div>
+            <div class="input">
+                <label for="secondname">Second Name (Optional)</label><br>
+                <input type="text" name="secondname">
+            </div>
+            <div class="input">
+                <label for="email">Email Address</label><br>
+                <input type="email" name="email" required>
+            </div>
+            <div class="input">
+                <label for="phone">Phone Number (optional)</label><br>
+                <input type="tel" name="phone">
+            </div>
+            <div class="input">
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="input">
+                <label for="confirm">Confirm Password</label><br>
+                <input type="password" name="confirm" id="confirm" required>
+            </div>
         </div>
-        <div class="input">
-            <label for="firstname">First Name</label><br>
-            <input type="text" name="firstname" required>
-        </div>
-        <div class="input">
-            <label for="secondname">Second Name (Optional)</label><br>
-            <input type="text" name="secondname">
-        </div>
-        <div class="input">
-            <label for="email">Email Address</label><br>
-            <input type="email" name="email" required>
-        </div>
-        <div class="input">
-            <label for="phone">Phone Number (optional)</label><br>
-            <input type="tel" name="phone">
-        </div>
-        <div class="input">
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="password" required>
-        </div>
-        <div class="input">
-            <label for="confirm">Confirm Password</label><br>
-            <input type="password" name="confirm" id="confirm" required>
+        <div class="signup">
+          <button type="submit">Sign Up</button><br><br>
+          <h4>Already a member? <a href="">Sign in.</a></h4>
         </div>
     </form>
-    <div class="signup">
-
-    </div>
   </div>
 </body>
 
